@@ -26,7 +26,7 @@ Button(text = "+", command = AppEvents.onClick_ButtonCollection, width = 6, heig
 Button(text = "-", command = AppEvents.onClick_ButtonExtraction, width = 6, height = 2, background = "#DBDCE0").place(x = 202, y = 125)
 Button(text = "/", command = AppEvents.onClick_ButtonMultiplication, width = 6, height = 2, background = "#DBDCE0").place(x = 202, y = 175)
 Button(text = "=", command = AppEvents.onClick_ButtonResult, width = 6, height = 2, background = "#4286F5").place(x = 138, y = 175)
-Button(text = "Del", command = AppEvents.onClick_ButtonDelete, width = 6, height = 2, background = "#4286F5").place(x = 74, y = 175)
+Button(text = "c", command = AppEvents.onClick_ButtonDelete, width = 6, height = 2, background = "#4286F5").place(x = 74, y = 175)
 
 if __name__ == "__main__":
     App.mainloop();
